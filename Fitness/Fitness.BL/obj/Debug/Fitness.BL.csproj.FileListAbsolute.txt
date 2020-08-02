@@ -1,0 +1,5 @@
+F:\github\Fitnes-application\Fitness\Fitness.BL\bin\Debug\Fitness.BL.dll
+F:\github\Fitnes-application\Fitness\Fitness.BL\bin\Debug\Fitness.BL.pdb
+F:\github\Fitnes-application\Fitness\Fitness.BL\obj\Debug\Fitness.BL.csprojResolveAssemblyReference.cache
+F:\github\Fitnes-application\Fitness\Fitness.BL\obj\Debug\Fitness.BL.dll
+F:\github\Fitnes-application\Fitness\Fitness.BL\obj\Debug\Fitness.BL.pdb
