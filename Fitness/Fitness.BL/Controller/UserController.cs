@@ -58,10 +58,10 @@ namespace Fitness.BL.Controller
 
             using (var fs = new FileStream("user.dat", FileMode.OpenOrCreate))
             {
-                var users = formatter.Deserialize(fs) as List<User>;
+                if (fs.Length > 0)
+                {
+                    var users = formatter.Deserialize(fs) as List<User>;
 
-                if (users != null)
-                { 
                     return users;
                 }
                 else
@@ -87,7 +87,15 @@ namespace Fitness.BL.Controller
 
         public void SetNewUserData(string genderName, DateTime birthDate, double weight = 1, double height = 1)
         {
-            //проверка
+            if (genderName == null)
+            {
+                throw new ArgumentNullException("Пол не может быть null.", nameof(genderName));
+            }
+
+            if (birthDate < DateTime.Parse("01.01.1970") || birthDate >= DateTime.Now)
+            {
+                throw new ArgumentException("Невозможная дата рождения.", nameof(birthDate));
+            }
 
             CurrentUser.Gender = new Gender(genderName);
             CurrentUser.BirthDate = birthDate;
