@@ -10,8 +10,12 @@ namespace Fitness.BL.Controller
     /// <summary>
     /// Контроллер пользователя
     /// </summary>
-    public class UserController
+    public class UserController : ControllerBase
     {
+        /// <summary>
+        /// Файл для сохранения пользователей
+        /// </summary>
+        private const string USER_FILE_SAVE = "user.dat";
         /// <summary>
         /// Список пользователей приложения
         /// </summary>
@@ -54,35 +58,15 @@ namespace Fitness.BL.Controller
         /// <returns>Пользователь приложения</returns>
         private List<User> GetUserData()
         {
-            var formatter = new BinaryFormatter();
-
-            using (var fs = new FileStream("user.dat", FileMode.OpenOrCreate))
-            {
-                if (fs.Length > 0)
-                {
-                    var users = formatter.Deserialize(fs) as List<User>;
-
-                    return users;
-                }
-                else
-                {
-                    return new List<User>();
-                }
-            }
+            return Load<List<User>>(USER_FILE_SAVE) ?? new List<User>();
         }
 
         /// <summary>
         /// Сохранить данные пользователя приложения
         /// </summary>
-        public void Save()
+        private void Save()
         {
-            var formatter = new BinaryFormatter();
-
-            using (var fs = new FileStream("user.dat", FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, Users);
-                
-            }
+            Save(USER_FILE_SAVE, Users);
         }
 
         public void SetNewUserData(string genderName, DateTime birthDate, double weight = 1, double height = 1)

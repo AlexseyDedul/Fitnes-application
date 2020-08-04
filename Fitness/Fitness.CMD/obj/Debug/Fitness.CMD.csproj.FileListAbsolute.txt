@@ -6,3 +6,5 @@ F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\Fitness.BL.pdb
 F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.csprojResolveAssemblyReference.cache
 F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.exe
 F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.pdb
+F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\System.ValueTuple.dll
+F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\System.ValueTuple.xml
