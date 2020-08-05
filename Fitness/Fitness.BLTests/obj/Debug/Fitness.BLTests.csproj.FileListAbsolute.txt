@@ -1,3 +1,4 @@
+F:\github\Fitnes-application\Fitness\Fitness.BLTests\bin\Debug\OrderedTest1.orderedtest
 F:\github\Fitnes-application\Fitness\Fitness.BLTests\bin\Debug\Fitness.BLTests.dll
 F:\github\Fitnes-application\Fitness\Fitness.BLTests\bin\Debug\Fitness.BLTests.pdb
 F:\github\Fitnes-application\Fitness\Fitness.BLTests\bin\Debug\Fitness.BL.dll
@@ -7,4 +8,3 @@ F:\github\Fitnes-application\Fitness\Fitness.BLTests\bin\Debug\ru\Microsoft.Visu
 F:\github\Fitnes-application\Fitness\Fitness.BLTests\obj\Debug\Fitness.BLTests.csprojResolveAssemblyReference.cache
 F:\github\Fitnes-application\Fitness\Fitness.BLTests\obj\Debug\Fitness.BLTests.dll
 F:\github\Fitnes-application\Fitness\Fitness.BLTests\obj\Debug\Fitness.BLTests.pdb
-F:\github\Fitnes-application\Fitness\Fitness.BLTests\bin\Debug\OrderedTest1.orderedtest

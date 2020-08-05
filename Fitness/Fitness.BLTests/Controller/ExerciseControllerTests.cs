@@ -10,24 +10,24 @@ using Fitness.BL.Model;
 namespace Fitness.BL.Controller.Tests
 {
     [TestClass()]
-    public class EatingControllerTests
+    public class ExerciseControllerTests
     {
         [TestMethod()]
-        public void AddEatingTest()
+        public void AddTest()
         {
             //average
             var userName = Guid.NewGuid().ToString();
-            var foodName = Guid.NewGuid().ToString();
+            var activityName = Guid.NewGuid().ToString();
             var rnd = new Random();
             var userController = new UserController(userName);
-            var eatingController = new EatingController(userController.CurrentUser);
-            var food = new Food(foodName, rnd.Next(50, 500), rnd.Next(50, 500), rnd.Next(50, 500), rnd.Next(50, 500));
+            var exerciseController = new ExerciseController(userController.CurrentUser);
+            var activity = new Activity(activityName, rnd.Next(10, 50));
 
             //act
-            eatingController.AddEating(food, 100);
+            exerciseController.Add(activity, DateTime.Now, DateTime.Now.AddHours(1));
 
             //assert eatingController.Foods.First().Proteins
-            Assert.AreEqual(food.Name, eatingController.Eating.Foods.First().Key.Name);
+            Assert.AreEqual(activityName, exerciseController.Activities.First().Name);
         }
     }
 }
