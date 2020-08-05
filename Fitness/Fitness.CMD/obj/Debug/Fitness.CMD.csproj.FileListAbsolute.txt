@@ -8,3 +8,11 @@ F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.exe
 F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.pdb
 F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\System.ValueTuple.dll
 F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\System.ValueTuple.xml
+F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.csproj.GenerateResource.Cache
+F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.Languages.Messages.resources
+F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\en-us\Fitness.CMD.resources.dll
+F:\github\Fitnes-application\Fitness\Fitness.CMD\bin\Debug\ru-ru\Fitness.CMD.resources.dll
+F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.Languages.Messages.en-us.resources
+F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\Fitness.CMD.Languages.Messages.ru-ru.resources
+F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\en-us\Fitness.CMD.resources.dll
+F:\github\Fitnes-application\Fitness\Fitness.CMD\obj\Debug\ru-ru\Fitness.CMD.resources.dll
